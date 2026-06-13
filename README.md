@@ -20,52 +20,49 @@
 - pip package manager
 
 ### Step 1: Clone the repository
-```bash
 git clone https://github.com/chusmanarshad/RSA-Manager.git
+
 cd RSA-Manager
 
-Step 2: Install dependencies
-
+### Step 2: Install dependencie
 pip install -r requirements.txt
 
-Step 3: Run the application
-
+### Step 3: Run the application
 python rsa_manager.py
 
-Create a standalone executable
-
-# For Windows
+### Create a standalone executable
+## For Windows
 pip install pyinstaller
 pyinstaller --onefile --windowed --icon=icon.ico rsa_manager.py
-
-# For macOS
+## For macOS
 pyinstaller --onefile --windowed --add-binary="/System/Library/Frameworks/Tk.framework/Tk:." rsa_manager.py
 
--## 🚀 Usage Guide
+
+ # 🚀 Usage Guide
 1. Generate Keys
-Click 2048-bit, 3072-bit, or 4096-bit button
+  Click 2048-bit, 3072-bit, or 4096-bit button
 
-Wait for key generation (3–5 seconds for 4096-bit)
+  Wait for key generation (3–5 seconds for 4096-bit)
 
-Public & private keys appear in text boxes
+  Public & private keys appear in text boxes
 
 2. Encrypt a Message
-Type your message in the "Enter data to encrypt" field
+  Type your message in the "Enter data to encrypt" field
 
-Click Encrypt button
+  Click the Encrypt button
 
-Encrypted text appears in Base64 format
+  Encrypted text appears in Base64 format
 
 3. Decrypt
-Choose Auto Decrypt (uses current private key) OR
+  Choose Auto Decrypt (uses current private key) OR
 
-Choose Manual Decrypt → paste encrypted data + private key
+  Choose Manual Decrypt → paste encrypted data + private key
 
-Click Decrypt to see original message
+  Click Decrypt to see the original message
 
 4. Manage Keys
-Click Export Keys to save as .pem files
+  Click Export Keys to save as .pem files
 
-Click Import Public Key to encrypt with external keys
+  Click Import Public Key to encrypt with external keys
 
-Keys auto-save to Documents/RSA_Keys/
+  Keys auto-save to Documents/RSA_Keys/
