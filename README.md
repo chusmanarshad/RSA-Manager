@@ -41,8 +41,7 @@ pyinstaller --onefile --windowed --icon=icon.ico rsa_manager.py
 # For macOS
 pyinstaller --onefile --windowed --add-binary="/System/Library/Frameworks/Tk.framework/Tk:." rsa_manager.py
 
-
-🚀 Usage Guide
+-## 🚀 Usage Guide
 1. Generate Keys
 Click 2048-bit, 3072-bit, or 4096-bit button
 
