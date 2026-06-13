@@ -13,6 +13,10 @@
 - 📋 **One-click copy** – Copy keys and encrypted data to clipboard
 - ⚡ **Fast & lightweight** – Optimized for performance even with 4096-bit keys
 
+## Screnshots
+- <img width="959" height="604" alt="Screenshot 2026-06-13 122800" src="https://github.com/user-attachments/assets/3068e710-dde4-4ff8-aabf-6318bc9cc224" />
+
+
 - ## 📦 Installation
 
 ### Prerequisites
